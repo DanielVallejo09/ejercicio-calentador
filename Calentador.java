@@ -9,7 +9,7 @@ public class Calentador
     
     public void calentar()
     {
-        temperatura = temperatura + 5;
+        temperatura = temperatura + 3;
     }
     
     public void enfria()
