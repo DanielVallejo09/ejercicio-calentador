@@ -9,7 +9,7 @@ public class Calentador
     
     public void calentar()
     {
-        if (temperatura < 30)
+        if (temperatura<30)
         {
           temperatura = temperatura + 3;  
         }
@@ -21,7 +21,7 @@ public class Calentador
     
     public void enfria()
     {
-        if (-10 <= temperatura)
+        if (-10<=temperatura)
         {
             temperatura = temperatura -3;
         }
